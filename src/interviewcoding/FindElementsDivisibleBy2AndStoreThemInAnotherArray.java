@@ -1,5 +1,4 @@
 package interviewcoding;
-
 import java.util.Arrays;
 
 public class FindElementsDivisibleBy2AndStoreThemInAnotherArray {
