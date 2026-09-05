@@ -13,6 +13,6 @@ public class RemoveDuplicatesLettersFromString {
                 result.append(c);
             }
         }
-        System.out.println(result);
+        System.out.println(result.toString());
     }
 }
