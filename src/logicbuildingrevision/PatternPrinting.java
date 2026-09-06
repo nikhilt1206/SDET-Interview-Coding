@@ -9,8 +9,8 @@ public class PatternPrinting {
            1 2 3 4
            1 2 3 4 5
         */
-        int number = 5;
-        for(int row=1;row<=number;row++){ //to print rows
+        int totalNumberOfLines = 5;
+        for(int row=1;row<=totalNumberOfLines;row++){ //to print rows
             for(int col=1;col<=row;col++){ //to print columns
                 System.out.print(col+" ");
             }
