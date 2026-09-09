@@ -10,15 +10,13 @@ public class ReverseStringTwoPointer {
         int left=0;
         int right=input.length()-1;
         char[] charInput = input.toCharArray();
-        for(int i=0;i<charInput.length;i++){
-            while(left<right){
+        while(left<right){
                 char temp =charInput[left];
                 charInput[left]=charInput[right];
                 charInput[right]=temp;
                 left++;
                 right--;
-
-            }
         }
+        System.out.println(charInput);
     }
 }
