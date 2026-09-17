@@ -7,7 +7,7 @@ This repository contains my coding preparation for SDET interviews.
 ### Pillar 1 — Interview Coding
 Problems focused on commonly asked interview coding questions.
 
-### Pillar 1 — Logic Building Revision
+### Pillar 2 — Logic Building Revision
 Problems focused on strengthening Java logic, problem-solving,
 collections, strings, arrays and common programming patterns.
 
