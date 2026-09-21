@@ -21,7 +21,6 @@ public class ConvertRomanToInteger {
             int currentValue = map.get(currentChar);
             if(currentValue>=prevValue){
                 result=result+currentValue;
-
             }
             else{
                 result=result-currentValue;
