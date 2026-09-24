@@ -14,6 +14,11 @@ public class MonotonicArray {
                 increasing=false; //decreasing
             }
         }
-        System.out.println("Monotonic Array: "+(increasing || decreasing));
+        if(increasing||decreasing){
+            System.out.println("The given array is Monotonic Array");
+        }
+        else{
+            System.out.println("The given array is not Monotonic Array");
+        }
     }
 }
