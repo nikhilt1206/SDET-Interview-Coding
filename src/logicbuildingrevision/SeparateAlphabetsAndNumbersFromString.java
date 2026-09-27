@@ -14,7 +14,7 @@ public class SeparateAlphabetsAndNumbersFromString {
                 alphabets.append(c);
             }
         }
-        System.out.println(alphabets);
-        System.out.println(numbers);
+        System.out.println(alphabets.toString());
+        System.out.println(numbers.toString());
     }
 }
