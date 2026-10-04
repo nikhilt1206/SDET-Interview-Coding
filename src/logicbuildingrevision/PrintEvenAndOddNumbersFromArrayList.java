@@ -14,6 +14,11 @@ public class PrintEvenAndOddNumbersFromArrayList {
         al.add(24.5); //double
         for(Object o : al){
             if(o instanceof Integer){ //tells that object belongs to a certain class or not (NPDT)
+                /* Can be written as :
+                Integer i = (Integer)o;
+                int x = i.intValue();
+                if(x%2==0){}
+                */
                 if((Integer)((Integer) o).intValue()%2==0){
                     System.out.println("Even: "+o);
                 }
