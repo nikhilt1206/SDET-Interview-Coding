@@ -15,6 +15,7 @@ public class CountTotalNumberOfDigitsInaNumber {
         //Another solution would be converted int to String and use the .length() method
         int num = 12345;
         String s = Integer.toString(num);
+        //String s1 = num + "";
         System.out.println(s.length());
     }
 }
