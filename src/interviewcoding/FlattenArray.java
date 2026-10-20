@@ -24,6 +24,10 @@ public class FlattenArray {
                 }
             }
         }
+        if (sb.length() > 0) {
+            int number = Integer.parseInt(sb.toString());
+            list.add(number);
+        }
         System.out.println(list);
     }
 }
