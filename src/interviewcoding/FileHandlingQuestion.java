@@ -26,7 +26,7 @@ public class FileHandlingQuestion {
                 }
                 for (Map.Entry<String, Integer> entry : map.entrySet()) {
                     if(entry.getValue()>1){
-                        System.out.println(entry.getKey());
+                        System.out.println(entry.getKey() + " = " + entry.getValue());
                     }
                 }
             } catch (IOException e) {
