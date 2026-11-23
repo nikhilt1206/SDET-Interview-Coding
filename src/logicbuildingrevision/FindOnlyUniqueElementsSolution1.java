@@ -13,7 +13,9 @@ public class FindOnlyUniqueElementsSolution1 {
                 duplicates.add(num);
             }
         }
+        System.out.println("Seen set : "+seen);
+        System.out.println("Duplicate set : "+duplicates);
         seen.removeAll(duplicates);
-        System.out.println(seen);
+        System.out.println("Unique : "+seen);
     }
 }
