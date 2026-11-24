@@ -1,5 +1,4 @@
 package logicbuildingrevision;
-
 import java.util.HashSet;
 
 public class FindOnlyUniqueElementsSolution1 {
